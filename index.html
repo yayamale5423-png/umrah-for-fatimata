@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Moonlight for Fatimata</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Fond -->
+    <div class="stars"></div>
+    <div class="moon"></div>
+
+    <!-- Page d'accueil -->
+    <section id="welcome">
+
+        <p class="small-title">
+            JUST FOR MY PRETTY
+        </p>
+
+        <h1>
+            Fatimata Tata Diallo 🤍
+        </h1>
+
+        <p class="subtitle">
+            Une petite lumière pour t'accompagner vers La Mecque.
+        </p>
+
+        <button id="openBtn">
+            ✨ Ouvrir mon message ✨
+        </button>
+
+    </section>
+
+    <!-- Lettre -->
+    <section id="letter" class="hidden">
+
+        <div class="paper">
+
+            <h2>
+                Bismillahir Rahmanir Rahim 🤍
+            </h2>
+
+            <div id="typingText"></div>
+
+        </div>
+
+    </section>            <audio id="nasheed" loop>
+                <source src="assets/nasheed.mp3" type="audio/mpeg">
+            </audio>
+
+        </div>
+
+    </section>
+
+    <!-- Kaaba -->
+    <section id="kaabaSection" class="hidden">
+
+        <div class="kaaba-container">
+
+            <img
+                src="assets/kaaba.png"
+                alt="Kaaba"
+                class="kaaba">
+
+            <h2 class="dua">
+
+                Omra Moubaraka,<br>
+                Fatimata Tata Diallo 🤍
+
+            </h2>
+
+            <p class="signature">
+
+                — De la part de quelqu'un qui te souhaite le meilleur. 🤍
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- Lanternes -->
+    <div id="lanternContainer"></div>    <script src="script.js"></script>
+
+</body>
+
+</html>
