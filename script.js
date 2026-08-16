@@ -3,7 +3,7 @@ const welcome = document.getElementById("welcome");
 const letter = document.getElementById("letter");
 const kaabaSection = document.getElementById("kaabaSection");
 const typingText = document.getElementById("typingText");
-const nasheed = document.getElementById("nasheed");
+const nasheed = document.getElementById("bgMusic");
 
 const message = `À l'heure où tu t'apprêtes à accomplir l'un des plus beaux voyages de ta vie, je voulais t'offrir ces quelques mots avec toute ma sincérité.
 
