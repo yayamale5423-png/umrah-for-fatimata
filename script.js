@@ -41,7 +41,7 @@ let index = 0;function typeWriter() {
 }
 
 openBtn.addEventListener("click", () => {
-
+⁠e.preventDefault()
     welcome.classList.add("hidden");
 
     letter.classList.remove("hidden");
