@@ -31,13 +31,10 @@ let index = 0;function typeWriter() {
 
     } else {
 
-        setTimeout(() => {
+    setTimeout(() => {
+        kaabaSection.classList.remove("hidden");
+    }, 1000);
 
-            letter.classList.add("hidden");
-
-            kaabaSection.classList.remove("hidden");
-
-        }, 4000);
 
     }
 
